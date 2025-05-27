@@ -85,7 +85,7 @@ const Intro = () => {
               Full Stack Software Developer.
             </SmotionDiv>
             <SmotionDiv variants={descriptionVariants}>
-              Blockchain and Web 3.0 Enthusiast.
+              Blockchain Expert.
             </SmotionDiv>
             <SmotionDiv variants={descriptionVariants}>
               Innovating technology for a brighter future.
@@ -124,7 +124,7 @@ const Intro = () => {
               <AiFillGithub />
             </SmotionLink>
 
-            <SmotionLink
+            {/* <SmotionLink
               initial={{ opacity: 0, y: 21 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -136,7 +136,7 @@ const Intro = () => {
               title='Twitter'
             >
               <AiFillTwitterCircle />
-            </SmotionLink>
+            </SmotionLink> */}
             <SmotionLink
               initial={{ opacity: 0, x: 21 }}
               whileInView={{ opacity: 1, x: 0 }}

@@ -13,7 +13,7 @@ export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quie
 export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
   'https://github.com/quiet-node/portfolio-v2';
 
-export const QUIET_NODE_GITHUB_LINK = 'https://github.com/quiet-node';
+export const QUIET_NODE_GITHUB_LINK = 'https://github.com/lukas020119';
 export const QUIET_NODE_REDDIT_LINK =
   'https://www.reddit.com/user/Quiet-Computer-3495';
 export const QUIET_NODE_EMAIL_LINK = 'mailto:logan@quiet-node.dev';
@@ -24,10 +24,14 @@ export const QUIET_NODE_DISCORD_LINK =
 
 export const GO_LINK = 'https://go.dev/';
 export const TS_LINK = 'https://typescriptlang.org/';
+export const WORDPRESS_LINK = 'https://wordpress.com/';
+export const JQUERY_LINK = 'https://jquery.com/';
 export const OPENAI_LINK = 'https://openai.com/';
 export const SOL_LINK = 'https://soliditylang.org/';
 export const JAVA_LINK = 'https://java.com/';
 export const MONGO_LINK = 'https://mongodb.com/';
+export const LARAVEL_LINK = 'https://laravel.com/';
+export const MYSQL_LINK = 'https://mysql.com/';
 export const TAILWIND_LINK = 'https://tailwindcss.com/';
 export const FRAMER_LINK = 'https://www.framer.com/motion/';
 export const REACT_LINK = 'https://reactjs.org/';
@@ -81,9 +85,9 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
     shouldShake: false,
   },
   {
-    technology: 'Java',
+    technology: 'Laravel',
     value: 88,
-    techLink: JAVA_LINK,
+    techLink: LARAVEL_LINK,
     shouldShake: false,
   },
   {
@@ -114,9 +118,9 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
     shouldShake: false,
   },
   {
-    technology: 'SpringBoot',
+    technology: 'Wordpress',
     value: 72,
-    techLink: SPRING_LINK,
+    techLink: WORDPRESS_LINK,
     shouldShake: false,
   },
   {
@@ -205,61 +209,30 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 export const PROJECTS_LISTS: Project[] = [
   {
     id: 0,
-    title: 'Syns Platform',
+    title: 'Landingi',
     stacks: {
       FE: [
         {
-          technology: 'TypeScript',
-          techLink: TS_LINK,
+          technology: 'Wordpress',
+          techLink: WORDPRESS_LINK,
           shouldShake: false,
         },
         {
-          technology: 'NextJS',
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'ReactJS',
-          techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'TailwindCSS',
-          techLink: TAILWIND_LINK,
+          technology: 'JQuery',
+          techLink: JQUERY_LINK,
           shouldShake: false,
         },
       ],
-      BC: [
-        {
-          technology: 'Ethereum',
-          techLink: ETHEREUM_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Polygon',
-          techLink: POLYGON_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Solidity',
-          techLink: SOL_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'OpenZeppelin',
-          techLink: OZ_LINK,
-          shouldShake: false,
-        },
-      ],
+      BC: [],
       BE: [
         {
-          technology: 'Golang',
-          techLink: GO_LINK,
+          technology: 'Wordpress',
+          techLink: WORDPRESS_LINK,
           shouldShake: false,
         },
         {
-          technology: 'MongoDB',
-          techLink: MONGO_LINK,
+          technology: 'MySQL',
+          techLink: MYSQL_LINK,
           shouldShake: false,
         },
         {
@@ -271,11 +244,11 @@ export const PROJECTS_LISTS: Project[] = [
       Mobile: [],
     },
     description:
-      'A revolutionary web 3.0 music platform that combines NFTs, music-donation system, NFT marketplace, club membership, and social media features, empowering musicians and fans to connect, showcase, and promote their music, revolutionizing the music industry.',
+      'Landingi is an online marketing SaaS solution providing practical web building resources, including graphic elements, fonts and templates, for clients from over 80 countries around the world.',
     repoLink: 'https://github.com/syns-platform',
-    liveLink: 'https://syns.vercel.app',
+    liveLink: 'https://landingi.com',
     demoLink: '',
-    thumbnail: 'syns-platform/syns-platform-devices.svg',
+    thumbnail: 'landingi/landingi.svg',
     cssWrapper: 'syns-platform',
     cssWrapperSm: 'syns-platform-sm',
     cssDesc: 'syns-platform-desc',
@@ -284,7 +257,7 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 1,
-    title: 'Hedro.ai',
+    title: 'Sprightful',
     stacks: {
       FE: [
         {
@@ -293,13 +266,13 @@ export const PROJECTS_LISTS: Project[] = [
           shouldShake: false,
         },
         {
-          technology: 'NextJS',
-          techLink: NEXT_LINK,
+          technology: 'ReactJS',
+          techLink: REACT_LINK,
           shouldShake: false,
         },
         {
-          technology: 'ReactJS',
-          techLink: REACT_LINK,
+          technology: 'Redux',
+          techLink: REDUX_LINK,
           shouldShake: false,
         },
         {
@@ -311,19 +284,24 @@ export const PROJECTS_LISTS: Project[] = [
       BC: [],
       BE: [
         {
-          technology: 'OpenAI',
-          techLink: OPENAI_LINK,
+          technology: 'NodeJS',
+          techLink: NODE_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'PostgreSQL',
+          techLink: POSTGRES_LINK,
           shouldShake: false,
         },
       ],
       Mobile: [],
     },
     description:
-      'A helpful GPT-3.5-turbo-powered-assistant whose main goal is to guide users to explore the ecosystem of the Hedera network',
+      'Solar energy company that helps people make the switch or plan to make the switch to green energy. And their goals were to make solar more accessible to everyone and reduce grid power consumption.',
     repoLink: 'https://github.com/quiet-node/hedro-ai',
-    liveLink: 'https://hedro-ai.vercel.app',
+    liveLink: 'https://sprightful.com',
     demoLink: '',
-    thumbnail: 'hedro-ai/hedro-ai.svg',
+    thumbnail: 'sprightful/sprightful.svg',
     cssWrapper: 'hedro-ai',
     cssWrapperSm: 'hedro-ai-sm',
     cssDesc: 'hedro-ai-desc',
@@ -332,17 +310,12 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 2,
-    title: 'Hedera System Contract DApp Playground',
+    title: 'DSU stable mint hub',
     stacks: {
       FE: [
         {
           technology: 'TypeScript',
           techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'NextJS',
-          techLink: NEXT_LINK,
           shouldShake: false,
         },
         {
@@ -357,11 +330,6 @@ export const PROJECTS_LISTS: Project[] = [
         },
       ],
       BC: [
-        {
-          technology: 'Hedera',
-          techLink: HEDERA_LINK,
-          shouldShake: false,
-        },
         {
           technology: 'Solidity',
           techLink: SOL_LINK,
@@ -382,12 +350,12 @@ export const PROJECTS_LISTS: Project[] = [
       Mobile: [],
     },
     description:
-      'An intuitive low-code playground that eliminates the complexities, reduces learning curves, and allows developers to effortlessly interact with the Hedera’s powerful system contracts.',
+      'DSU is designed to be an immutable, decentralized alternative to central banks—a smart contract-based Federal Reserve that allows users to mint DSU by burning Native Coins.',
     repoLink:
       'https://github.com/hashgraph/hedera-smart-contracts/tree/main/system-contract-dapp-playground',
-    liveLink: 'https://hedera-dapp-playground.vercel.app/',
+    liveLink: 'https://dsu-stable-mint-hub.vercel.app',
     demoLink: '',
-    thumbnail: 'hedera-dapp-playground/hedera-dapp-playground.svg',
+    thumbnail: 'dsu-mint-hub/dsu-mint-hub.svg',
     cssWrapper: 'hedera-dapp-playground',
     cssWrapperSm: 'hedera-dapp-playground-sm',
     cssDesc: 'hedera-dapp-playground-desc',

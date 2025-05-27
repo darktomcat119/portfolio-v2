@@ -37,9 +37,8 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
 
   return (
     <div
-      className={`overflow-hidden ${
-        isMdMedium ? cssWrapper : project.cssWrapperSm
-      }`}
+      className={`overflow-hidden ${isMdMedium ? cssWrapper : project.cssWrapperSm
+        }`}
     >
       <div
         className={`relative flex ${flipped && 'xmmd:flex-row-reverse'}
@@ -357,6 +356,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
               )}
 
               {/* github */}
+              {/*
               <motion.a
                 variants={verticalMoreSkills}
                 href={repoLink}
@@ -379,7 +379,8 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                   })
                 }
               >
-                <span className='flex flex-col items-center'>
+                ==================== BY COURAGE ==================
+                 <span className='flex flex-col items-center'>
                   <p className=''>
                     View source code{' '}
                     <span className='hidden xxsm:inline sm:hidden md:inline'>
@@ -409,6 +410,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                   )}
                 </motion.span>
               </motion.a>
+                  */}
             </motion.div>
           </div>
         </motion.div>
@@ -422,17 +424,15 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
             margin: '100% 0% -9% 0%',
           }}
           transition={{ duration: 0.6, delay: 0.36 }}
-          className={`xmmd:absolute ${
-            flipped ? 'xmmd:left-0' : 'xmmd:right-3'
-          } border-22 border-black ${
-            id === 0
+          className={`xmmd:absolute ${flipped ? 'xmmd:left-0' : 'xmmd:right-3'
+            } border-22 border-black ${id === 0
               ? 'xmmd:w-3/5'
               : 'xmmd:w-[500px] lg:w-[520px] xl:w-[650px] 2xl:w-[700px]'
-          } flex items-center justify-center
+            } flex items-center justify-center
           ${(id === 5 || id === 6) && 'mt-9 mb-16 xmmd:mb-0'}`}
         >
           <Image
-            src={`assets/project_thumbnails/${thumbnail}`}
+            src={`/assets/project_thumbnails/${thumbnail}`}
             alt={title}
             className='border-22 border-black'
             width={2000}
