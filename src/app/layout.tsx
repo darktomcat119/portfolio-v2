@@ -46,8 +46,8 @@ export const metadata: Metadata = {
     'smart contract developer portfolio',
   ],
   icons: {
-    icon: '/quiet-node.ico',
-    shortcut: '/quiet-node.ico',
+    icon: '/brandings/quiet-node-ico.png',
+    shortcut: '/brandings/quiet-node-ico.png',
   },
   metadataBase: new URL(OFFICIAL_AUTHOR_URL),
   alternates: {
