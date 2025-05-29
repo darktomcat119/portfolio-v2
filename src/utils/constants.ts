@@ -11,13 +11,13 @@ export const OFFICIAL_OG_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-nod
 export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-node-twitter.png`;
 
 export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
-  'https://github.com/quiet-node/portfolio-v2';
+  'https://github.com/lukas020119/portfolio-v2';
 
 export const QUIET_NODE_GITHUB_LINK = 'https://github.com/lukas020119';
 export const QUIET_NODE_REDDIT_LINK =
   'https://www.reddit.com/user/Quiet-Computer-3495';
-export const QUIET_NODE_EMAIL_LINK = 'mailto:logan@quiet-node.dev';
-export const QUIET_NODE_LINKEDIN_LINK = 'https://linkedin.com/in/logann131';
+export const QUIET_NODE_EMAIL_LINK = 'https://mailto:denyskanivets79@gmail.com';
+export const QUIET_NODE_LINKEDIN_LINK = 'https://www.linkedin.com/in/denys-kanivets-profile/';
 export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
 export const QUIET_NODE_DISCORD_LINK =
   'https://discordapp.com/users/401650245202739201';
@@ -36,6 +36,7 @@ export const TAILWIND_LINK = 'https://tailwindcss.com/';
 export const FRAMER_LINK = 'https://www.framer.com/motion/';
 export const REACT_LINK = 'https://reactjs.org/';
 export const NEXT_LINK = 'https://nextjs.org/';
+export const NEST_LINK = 'https://nestjs.org/';
 export const SPRING_LINK = 'https://spring.io/';
 export const HARDHAT_LINK = 'https://hardhat.org/';
 export const NODE_LINK = 'https://nodejs.org/';
@@ -48,6 +49,7 @@ export const ETHERSJS_LINK = 'https://docs.ethers.org/v6/';
 export const MOCHA_LINK = 'https://mochajs.org/';
 export const POSTGRES_LINK = 'https://www.postgresql.org/';
 export const AWS_LINK = 'https://aws.amazon.com/';
+export const WEBSOCKETS_LINK = 'https://nodejs.com/';
 export const VERCEL_LINK = 'https://vercel.com/';
 export const NETLIFY_LINK = 'https://www.netlify.com/';
 export const DYNAMO_LINK = 'https://aws.amazon.com/dynamodb/';
@@ -160,8 +162,8 @@ export const MORE_SKILLS_LISTS: Technology[] = [
     shouldShake: false,
   },
   {
-    technology: 'MochaJS',
-    techLink: MOCHA_LINK,
+    technology: 'NestJS',
+    techLink: NEST_LINK,
     shouldShake: false,
   },
   {
@@ -185,8 +187,8 @@ export const MORE_SKILLS_LISTS: Technology[] = [
     shouldShake: false,
   },
   {
-    technology: 'Netlify',
-    techLink: NETLIFY_LINK,
+    technology: 'Websockets',
+    techLink: WEBSOCKETS_LINK,
     shouldShake: false,
   },
   {
@@ -207,56 +209,9 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 ];
 
 export const PROJECTS_LISTS: Project[] = [
+
   {
     id: 0,
-    title: 'Landingi',
-    stacks: {
-      FE: [
-        {
-          technology: 'Wordpress',
-          techLink: WORDPRESS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'JQuery',
-          techLink: JQUERY_LINK,
-          shouldShake: false,
-        },
-      ],
-      BC: [],
-      BE: [
-        {
-          technology: 'Wordpress',
-          techLink: WORDPRESS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'MySQL',
-          techLink: MYSQL_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Vercel',
-          techLink: VERCEL_LINK,
-          shouldShake: false,
-        },
-      ],
-      Mobile: [],
-    },
-    description:
-      'Landingi is an online marketing SaaS solution providing practical web building resources, including graphic elements, fonts and templates, for clients from over 80 countries around the world.',
-    repoLink: 'https://github.com/syns-platform',
-    liveLink: 'https://landingi.com',
-    demoLink: '',
-    thumbnail: 'landingi/landingi.svg',
-    cssWrapper: 'syns-platform',
-    cssWrapperSm: 'syns-platform-sm',
-    cssDesc: 'syns-platform-desc',
-    cssBtn: 'syns-platform-btn',
-    cssUnderline: 'syns-platform-underline',
-  },
-  {
-    id: 1,
     title: 'Sprightful',
     stacks: {
       FE: [
@@ -302,9 +257,9 @@ export const PROJECTS_LISTS: Project[] = [
     liveLink: 'https://sprightful.com',
     demoLink: '',
     thumbnail: 'sprightful/sprightful.svg',
-    cssWrapper: 'hedro-ai',
-    cssWrapperSm: 'hedro-ai-sm',
-    cssDesc: 'hedro-ai-desc',
+    cssWrapper: 'syns-platform',
+    cssWrapperSm: 'syns-platform-sm',
+    cssDesc: 'syns-platform-desc',
     cssBtn: 'hedro-ai-btn',
     cssUnderline: 'hedro-ai-underline',
   },
@@ -364,7 +319,7 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 3,
-    title: 'Hashtology',
+    title: 'VARUS',
     stacks: {
       FE: [
         {
@@ -378,11 +333,6 @@ export const PROJECTS_LISTS: Project[] = [
           shouldShake: false,
         },
         {
-          technology: 'ViteJS',
-          techLink: VITE_LINK,
-          shouldShake: false,
-        },
-        {
           technology: 'TailwindCSS',
           techLink: TAILWIND_LINK,
           shouldShake: false,
@@ -390,28 +340,23 @@ export const PROJECTS_LISTS: Project[] = [
       ],
       BC: [
         {
-          technology: 'Ethereum',
-          techLink: ETHEREUM_LINK,
+          technology: 'Laravel',
+          techLink: LARAVEL_LINK,
           shouldShake: false,
         },
         {
-          technology: 'Polygon',
-          techLink: POLYGON_LINK,
+          technology: 'MySQL',
+          techLink: MYSQL_LINK,
           shouldShake: false,
         },
         {
-          technology: 'Solidity',
-          techLink: SOL_LINK,
+          technology: 'Redis',
+          techLink: '',
           shouldShake: false,
         },
         {
-          technology: 'Hardhat',
+          technology: 'AWSLamdba',
           techLink: HARDHAT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'MochaJS',
-          techLink: MOCHA_LINK,
           shouldShake: false,
         },
       ],
@@ -420,11 +365,11 @@ export const PROJECTS_LISTS: Project[] = [
     },
 
     description:
-      'A crypto-wallet that simplifies the process of sending and receiving various digital currencies across the globe, provides a secure and reliable way to manage your digital assets.',
+      'VARUS is an e-commerce platform for one of Ukraine’s largest grocery chains, offering delivery, promotions, and in-store pickup. It supports thousands of concurrent users with real-time inventory and personalized offers.',
     repoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp`,
-    liveLink: '',
+    liveLink: 'https://varus.ua',
     demoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp#desktop`,
-    thumbnail: 'hashtology/hashtology.svg',
+    thumbnail: 'varus/varus.svg',
     cssWrapper: 'hashtology',
     cssWrapperSm: 'hashtology-sm',
     cssDesc: 'hashtology-desc',
@@ -433,14 +378,25 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 4,
-    title: 'NFTir',
+    title: 'Peoplelogic',
     stacks: {
-      FE: [],
+      FE: [
+        {
+          technology: 'ReactJS',
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+      ],
       BC: [],
       BE: [
         {
-          technology: 'Golang',
-          techLink: GO_LINK,
+          technology: 'NestJS',
+          techLink: NEST_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'PostgreSQL',
+          techLink: POSTGRES_LINK,
           shouldShake: false,
         },
         {
@@ -449,24 +405,19 @@ export const PROJECTS_LISTS: Project[] = [
           shouldShake: false,
         },
         {
-          technology: 'DynamoDB',
-          techLink: DYNAMO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Docker',
-          techLink: DOCKER_LINK,
+          technology: 'Websockets',
+          techLink: WEBSOCKETS_LINK,
           shouldShake: false,
         },
       ],
       Mobile: [],
     },
     description:
-      'A Golang-based application server, boasts a plethora of RESTful endpoints that facilitate the efficient processing and management of metadata and information pertaining to specific NFTs through the utilization of the NFTGo API.',
+      'Peoplelogic is a performance management platform that streamlines OKRs, feedback, and 1-on-1 meetings for fast-moving teams. It helps HR teams and managers build better team culture with transparency and engagement.',
     repoLink: `https://github.com/nftir`,
-    liveLink: '',
+    liveLink: 'https://peoplelogic.ai',
     demoLink: '',
-    thumbnail: 'nftir/nftir.svg',
+    thumbnail: 'peoplelogic/peoplelogic.svg',
     cssWrapper: 'nftir',
     cssWrapperSm: 'nftir-sm',
     cssDesc: 'nftir-desc',
@@ -476,7 +427,7 @@ export const PROJECTS_LISTS: Project[] = [
 
   {
     id: 5,
-    title: 'Calibrated Peer Review',
+    title: 'Wholesum',
     stacks: {
       FE: [
         {
@@ -493,17 +444,22 @@ export const PROJECTS_LISTS: Project[] = [
       BC: [],
       BE: [
         {
-          technology: 'Java',
-          techLink: JAVA_LINK,
+          technology: 'NestJS',
+          techLink: NEST_LINK,
           shouldShake: false,
         },
         {
-          technology: 'OpenLiberty',
+          technology: 'PostgreSQL',
           techLink: OL_LINK,
           shouldShake: false,
         },
         {
-          technology: 'Docker',
+          technology: 'WebSockets',
+          techLink: WEBSOCKETS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: 'AWS',
           techLink: DOCKER_LINK,
           shouldShake: false,
         },
@@ -511,149 +467,198 @@ export const PROJECTS_LISTS: Project[] = [
       Mobile: [],
     },
     description:
-      'A full-stack web application aimed at bringing automated calibrated peer review to classrooms at SUNY Oswego.',
+      'Wholesum is a nutrition-focused SaaS app for educational programs and expeditions to plan meals, manage allergies, and analyze nutrition. It provides real-time team collaboration on ingredient lists and portion scaling.',
     repoLink: `https://github.com/tenbergen/CSC480-22S`,
-    liveLink: 'http://moxie.cs.oswego.edu:13125/',
+    liveLink: 'https://www.wholesum.app',
     demoLink: '',
-    thumbnail: 'cproswego/cpr.svg',
+    thumbnail: 'wholesum/wholesum.svg',
     cssWrapper: 'cpr',
     cssWrapperSm: 'cpr-sm',
     cssDesc: 'cpr-desc',
     cssBtn: 'cpr-btn',
     cssUnderline: 'cpr-underline',
   },
+  
   {
-    id: 6,
-    title: 'Meetup App',
+    id: 0,
+    title: 'Landingi',
     stacks: {
       FE: [
         {
-          technology: 'ReactJS',
-          techLink: REACT_LINK,
+          technology: 'Wordpress',
+          techLink: WORDPRESS_LINK,
           shouldShake: false,
         },
         {
-          technology: 'JavaScript',
-          techLink: JS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Redux',
-          techLink: REDUX_LINK,
+          technology: 'JQuery',
+          techLink: JQUERY_LINK,
           shouldShake: false,
         },
       ],
       BC: [],
       BE: [
         {
-          technology: 'NodeJs',
-          techLink: NODE_LINK,
+          technology: 'Wordpress',
+          techLink: WORDPRESS_LINK,
           shouldShake: false,
         },
         {
-          technology: 'JavaScript',
-          techLink: JS_LINK,
+          technology: 'MySQL',
+          techLink: MYSQL_LINK,
           shouldShake: false,
         },
         {
-          technology: 'MongoDB',
-          techLink: MONGO_LINK,
+          technology: 'Vercel',
+          techLink: VERCEL_LINK,
           shouldShake: false,
         },
       ],
       Mobile: [],
     },
     description:
-      'A social platform enables them to connect and create a portfolio that showcases their professional career, including their experience, education, skills, and other pertinent information.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/meetup-app`,
-    liveLink: 'https://serene-retreat-94411.herokuapp.com/',
+      'Landingi is an online marketing SaaS solution providing practical web building resources, including graphic elements, fonts and templates, for clients from over 80 countries around the world.',
+    repoLink: 'https://github.com/syns-platform',
+    liveLink: 'https://landingi.com',
     demoLink: '',
-    thumbnail: 'meetup-app/meetup-app.svg',
-    cssWrapper: 'meetup',
-    cssWrapperSm: 'meetup-sm',
-    cssDesc: 'meetup-desc',
-    cssBtn: 'meetup-btn',
-    cssUnderline: 'meetup-underline',
+    thumbnail: 'landingi/landingi.svg',
+    cssWrapper: 'syns-platform',
+    cssWrapperSm: 'syns-platform-sm',
+    cssDesc: 'syns-platform-desc',
+    cssBtn: 'syns-platform-btn',
+    cssUnderline: 'syns-platform-underline',
   },
-  {
-    id: 7,
-    title: 'Crew Talk',
-    stacks: {
-      FE: [],
-      BC: [],
-      BE: [],
-      Mobile: [
-        {
-          technology: 'Kotlin',
-          techLink: KOT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'XML',
-          techLink: XML_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Android',
-          techLink: ANDROID_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'Firebase',
-          techLink: FIRE_LINK,
-          shouldShake: false,
-        },
-      ],
-    },
-    description:
-      'An Android chat app that supports realtime chatting by integrating the Google Firebase database.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk`,
-    liveLink: '',
-    demoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk#application-showcase`,
-    thumbnail: 'crew-talk/crew-talk.svg',
-    cssWrapper: 'crew-talk',
-    cssWrapperSm: 'crew-talk-sm',
-    cssDesc: 'crew-talk-desc',
-    cssBtn: 'crew-talk-btn',
-    cssUnderline: 'crew-talk-underline',
-  },
-  {
-    id: 8,
-    title: 'Omega Ecommerce',
-    stacks: {
-      FE: [],
-      BC: [],
-      BE: [],
-      Mobile: [
-        {
-          technology: 'SwiftUI',
-          techLink: SWIFT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'MacOS',
-          techLink: MAC_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: 'xCode',
-          techLink: XCODE_LINK,
-          shouldShake: false,
-        },
-      ],
-    },
-    description:
-      'A dynamic e-commerce platform featuring a user-friendly, yet intricate animated interface for an elevated online shopping experience.',
-    repoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce`,
-    liveLink: '',
-    demoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce#app-demo`,
-    thumbnail: 'omega-ecommerce/omega-ecommerce.svg',
-    cssWrapper: 'omega',
-    cssWrapperSm: 'omega-sm',
-    cssDesc: 'omega-desc',
-    cssBtn: 'omega-btn',
-    cssUnderline: 'omega-underline',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Meetup App',
+  //   stacks: {
+  //     FE: [
+  //       {
+  //         technology: 'ReactJS',
+  //         techLink: REACT_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'JavaScript',
+  //         techLink: JS_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'Redux',
+  //         techLink: REDUX_LINK,
+  //         shouldShake: false,
+  //       },
+  //     ],
+  //     BC: [],
+  //     BE: [
+  //       {
+  //         technology: 'NodeJs',
+  //         techLink: NODE_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'JavaScript',
+  //         techLink: JS_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'MongoDB',
+  //         techLink: MONGO_LINK,
+  //         shouldShake: false,
+  //       },
+  //     ],
+  //     Mobile: [],
+  //   },
+  //   description:
+  //     'A social platform enables them to connect and create a portfolio that showcases their professional career, including their experience, education, skills, and other pertinent information.',
+  //   repoLink: `${QUIET_NODE_GITHUB_LINK}/meetup-app`,
+  //   liveLink: 'https://serene-retreat-94411.herokuapp.com/',
+  //   demoLink: '',
+  //   thumbnail: 'meetup-app/meetup-app.svg',
+  //   cssWrapper: 'meetup',
+  //   cssWrapperSm: 'meetup-sm',
+  //   cssDesc: 'meetup-desc',
+  //   cssBtn: 'meetup-btn',
+  //   cssUnderline: 'meetup-underline',
+  // },
+  // {
+  //   id: 7,
+  //   title: 'Crew Talk',
+  //   stacks: {
+  //     FE: [],
+  //     BC: [],
+  //     BE: [],
+  //     Mobile: [
+  //       {
+  //         technology: 'Kotlin',
+  //         techLink: KOT_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'XML',
+  //         techLink: XML_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'Android',
+  //         techLink: ANDROID_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'Firebase',
+  //         techLink: FIRE_LINK,
+  //         shouldShake: false,
+  //       },
+  //     ],
+  //   },
+  //   description:
+  //     'An Android chat app that supports realtime chatting by integrating the Google Firebase database.',
+  //   repoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk`,
+  //   liveLink: '',
+  //   demoLink: `${QUIET_NODE_GITHUB_LINK}/crew-talk#application-showcase`,
+  //   thumbnail: 'crew-talk/crew-talk.svg',
+  //   cssWrapper: 'crew-talk',
+  //   cssWrapperSm: 'crew-talk-sm',
+  //   cssDesc: 'crew-talk-desc',
+  //   cssBtn: 'crew-talk-btn',
+  //   cssUnderline: 'crew-talk-underline',
+  // },
+  // {
+  //   id: 8,
+  //   title: 'Omega Ecommerce',
+  //   stacks: {
+  //     FE: [],
+  //     BC: [],
+  //     BE: [],
+  //     Mobile: [
+  //       {
+  //         technology: 'SwiftUI',
+  //         techLink: SWIFT_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'MacOS',
+  //         techLink: MAC_LINK,
+  //         shouldShake: false,
+  //       },
+  //       {
+  //         technology: 'xCode',
+  //         techLink: XCODE_LINK,
+  //         shouldShake: false,
+  //       },
+  //     ],
+  //   },
+  //   description:
+  //     'A dynamic e-commerce platform featuring a user-friendly, yet intricate animated interface for an elevated online shopping experience.',
+  //   repoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce`,
+  //   liveLink: '',
+  //   demoLink: `${QUIET_NODE_GITHUB_LINK}/omega-ecommerce#app-demo`,
+  //   thumbnail: 'omega-ecommerce/omega-ecommerce.svg',
+  //   cssWrapper: 'omega',
+  //   cssWrapperSm: 'omega-sm',
+  //   cssDesc: 'omega-desc',
+  //   cssBtn: 'omega-btn',
+  //   cssUnderline: 'omega-underline',
+  // },
 ];
 
 export const SOCIAL_FOOTER = [
@@ -665,13 +670,6 @@ export const SOCIAL_FOOTER = [
     bgClass: 'bg-github',
   },
   {
-    id: 1,
-    title: 'Reddit',
-    desc: "Second favorite place. Just became a redditor for a year now but can't stop reading random posts.",
-    link: QUIET_NODE_REDDIT_LINK,
-    bgClass: 'bg-reddit',
-  },
-  {
     id: 2,
     title: 'LinkedIn',
     desc: 'Professional social media. Been using it professionaly for 2 years. Connect with me!',
@@ -679,24 +677,10 @@ export const SOCIAL_FOOTER = [
     bgClass: 'bg-linkedin',
   },
   {
-    id: 3,
-    title: 'Twitter',
-    desc: 'Only up for the news. Well you know still follow me.',
-    link: QUIET_NODE_TWITTER_LINK,
-    bgClass: 'bg-twitter',
-  },
-  {
     id: 4,
     title: 'Gmail',
     desc: 'Main communicating media. Shoot me an email!',
     link: QUIET_NODE_EMAIL_LINK,
     bgClass: 'bg-gmail',
-  },
-  {
-    id: 5,
-    title: 'Discord',
-    desc: "C'mon you just can't 'not' have a discord these days! No? nvm.",
-    link: QUIET_NODE_DISCORD_LINK,
-    bgClass: 'bg-discord',
   },
 ];
