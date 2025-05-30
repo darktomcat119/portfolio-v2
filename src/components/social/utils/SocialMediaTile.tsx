@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ImMail } from 'react-icons/im';
 import { SiDiscord, SiTiktok } from 'react-icons/si';
 import { BsGithub, BsTwitter, BsReddit, BsLinkedin } from 'react-icons/bs';
+import React, { useRef } from 'react';
 
 interface PageProps {
   social: {
@@ -22,7 +23,15 @@ const SocialMediaTile = ({ social }: PageProps) => {
       onClick={() => {
         if (id === 6) {
           alert('SIKE!! You wish!! LOOL');
-        } else {
+        } else if (id === 4) {
+          const email = link;
+          const subject = encodeURIComponent("Hello");
+          const body = encodeURIComponent("Hi there!");
+
+          const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+          window.open(gmailUrl, "_blank");
+        }
+        else {
           window.open(link);
         }
       }}
