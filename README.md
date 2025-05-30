@@ -1,11 +1,10 @@
 <p align="center">
 <br />
-<a href="https://quiet-node.dev"><img src="https://github.com/quiet-node/portfolio-v2/blob/main/public/quiet-node.ico?raw=true" width="150" alt=""/></a>
-<h1 align="center">Quiet Node | Portfolio </h1>
+<a href="https://darktomcat011888.dev"><img src="https://github.com/darktomcat119/portfolio-v2/blob/main/public/tomcat.png?raw=true" width="150" alt=""/></a>
+<h1 align="center">Quiet Node | Prtfolio </h1
 </p>
 
-<h3 align="center"> 🏵️ Live at: https://quiet-node.dev </h3>
-
+<h3 align="center"> 🏵️ Live at: https://darktomcat011888.dev </h3>
 <div align="center">
 
 ![](https://img.shields.io/badge/TypeScript-5.1.3-blue?style=flat-square&logo=typescript)
