@@ -11,12 +11,12 @@ export const OFFICIAL_OG_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-nod
 export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-node-twitter.png`;
 
 export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
-  'https://github.com/lukas020119/portfolio-v2';
+  'https://github.com/darktomcat119/portfolio-v2';
 
-export const QUIET_NODE_GITHUB_LINK = 'https://github.com/lukas020119';
+export const QUIET_NODE_GITHUB_LINK = 'https://github.com/darktomcat119';
 export const QUIET_NODE_REDDIT_LINK =
   'https://www.reddit.com/user/Quiet-Computer-3495';
-export const QUIET_NODE_EMAIL_LINK = 'https://mailto:denyskanivets79@gmail.com';
+export const QUIET_NODE_EMAIL_LINK = 'mailto:denyskanivets79@gmail.com';
 export const QUIET_NODE_LINKEDIN_LINK = 'https://www.linkedin.com/in/denys-kanivets-profile/';
 export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
 export const QUIET_NODE_DISCORD_LINK =
