@@ -23,7 +23,7 @@ const SocialMediaTile = ({ social }: PageProps) => {
         if (id === 6) {
           alert('SIKE!! You wish!! LOOL');
         } else {
-          window.open(link, '_target');
+          window.open(link);
         }
       }}
       className={`cursor-pointer flex items-center w-fit rounded-lg ${bgClass}
