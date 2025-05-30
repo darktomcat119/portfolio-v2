@@ -10,6 +10,7 @@ const About = () => {
                 lg:h-[500px]'
     >
       {/* container */}
+      
       <div
         className='flex flex-col items-center text-white
                 mt-6
@@ -54,25 +55,25 @@ const About = () => {
           {/* first sentence */}
           <SmotionDiv>
             <p>
-              An avid technology believer{' '}
-              <br className='hidden xxsm:block xsm:hidden' /> who is{' '}
-              <br className='hidden xsm:block sm:hidden' /> continually
-              intrigued <br className='hidden lg:block' /> by{' '}
-              <br className='hidden xxsm:block xsm:hidden' /> the{' '}
+            Hey! I'm Denys, a full-stack dev from Ukraine{' '}
+              <br className='hidden xxsm:block xsm:hidden' />who loves{' '}
+              <br className='hidden xsm:block sm:hidden' /> building
+              cool stuff <br className='hidden lg:block' /> with{' '}
+              <br className='hidden xxsm:block xsm:hidden' /> React, Node, Django, and PostgreSQL.{' '}
               <br className='hidden sm:block lg:hidden' />
-              immense potential <br className='hidden xsm:block sm:hidden' /> of
-              blockchain <br className='hidden xxsm:block xsm:hidden' /> and AI
-              can revolutionize the future.
+              I’ve been coding <br className='hidden xsm:block sm:hidden' /> for
+              6+ years—mostly <br className='hidden xxsm:block xsm:hidden' /> web apps,
+              sometimes smart contracts.
             </p>
           </SmotionDiv>
 
           {/* @medium-device: second sentence */}
           <SmotionDiv className='hidden sm:block'>
             <p>
-              Through commitment to professionalism,{' '}
+            Always up for a challenge,{' '}
               <span className='sm:hidden md:inline'>and </span>
-              <span className='hidden lg:inline'>focus on</span>{' '}
-              <span className='sm:hidden md:inline'>excellence,</span>
+              <span className='hidden lg:inline'>a good</span>{' '}
+              <span className='sm:hidden md:inline'>cup of coffee ☕.</span>
               I am passionate <br className='hidden md:block lg:hidden' /> about{' '}
               <br className='hidden lg:block' /> creating{' '}
               <br className='hidden sm:block md:hidden lg:hidden' /> elegant and{' '}
