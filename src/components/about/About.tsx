@@ -10,7 +10,7 @@ const About = () => {
                 lg:h-[500px]'
     >
       {/* container */}
-      
+
       <div
         className='flex flex-col items-center text-white
                 mt-6
@@ -55,7 +55,7 @@ const About = () => {
           {/* first sentence */}
           <SmotionDiv>
             <p>
-            Hey! I'm Denys, a full-stack dev {' '}
+              Hey! I am Denys, a full-stack dev {' '}
               <br className='hidden xxsm:block xsm:hidden' />who loves{' '}
               <br className='hidden xsm:block sm:hidden' /> building
               cool stuff <br className='hidden lg:block' /> with{' '}
@@ -70,7 +70,7 @@ const About = () => {
           {/* @medium-device: second sentence */}
           <SmotionDiv className='hidden sm:block'>
             <p>
-            Always up for a challenge,{' '}
+              Always up for a challenge,{' '}
               <span className='sm:hidden md:inline'>and </span>
               <span className='hidden lg:inline'>a good</span>{' '}
               <span className='sm:hidden md:inline'>cup of coffee ☕.</span>
