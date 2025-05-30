@@ -28,16 +28,16 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: 'Quiet Node | Portfolio',
+  title: 'Kanivets Denys',
   description:
-    'Full-stack Web 3.0 Software Developer | DLT Enthusiast | Junior Smart Contract Developer',
+    'Full-stack Blockchain Software Developer Senior Smart Contract Developer',
   authors: {
-    name: 'Logan (a.k.a. Quiet Node)',
+    name: 'Denys (a.k.a. Quiet Node)',
     url: OFFICIAL_PLATOFORM_TWITTER_URL,
   },
   keywords: [
-    'Logan',
-    'Logann131',
+    'Denys',
+    'Denysn131',
     'Quiet Node',
     'Quiet0Node',
     'Portfolio',
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
     'smart contract developer portfolio',
   ],
   icons: {
-    icon: '/brandings/quiet-node-ico.png',
-    shortcut: '/brandings/quiet-node-ico.png',
+    icon: '/brandings/avatar.jpg',
+    shortcut: '/brandings/avatar.jpg',
   },
   metadataBase: new URL(OFFICIAL_AUTHOR_URL),
   alternates: {
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: OFFICIAL_AUTHOR_URL,
-    creator: '@quiet_node',
+    creator: '@courage',
     creatorId: '1525316662429360131',
     title: 'Quiet Node | Portfolio',
     description:

@@ -1,14 +1,14 @@
 /** @notice Author's url */
-export const OFFICIAL_AUTHOR_URL = 'https://quiet-node.dev';
+export const OFFICIAL_AUTHOR_URL = 'https://denys.netlify.app';
 
 /** @notice Official Author Twitter */
 export const OFFICIAL_PLATOFORM_TWITTER_URL = 'https://twitter.com/quiet_node';
 
 /** @notice Official OG Image URL */
-export const OFFICIAL_OG_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-node-og.png`;
+export const OFFICIAL_OG_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/avatar.jpg`;
 
 /** @notice Official Platform Twitter Image URL */
-export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/quiet-node-twitter.png`;
+export const OFFICIAL_TWITTER_IMAGE_URL = `${OFFICIAL_AUTHOR_URL}/brandings/courage-twitter.png`;
 
 export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
   'https://github.com/darktomcat119/portfolio-v2';
@@ -253,7 +253,7 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'Solar energy company that helps people make the switch or plan to make the switch to green energy. And their goals were to make solar more accessible to everyone and reduce grid power consumption.',
-    repoLink: 'https://github.com/quiet-node/hedro-ai',
+    repoLink: 'https://github.com/courage/hedro-ai',
     liveLink: 'https://sprightful.com',
     demoLink: '',
     thumbnail: 'sprightful/sprightful.svg',
