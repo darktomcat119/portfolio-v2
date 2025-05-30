@@ -55,7 +55,7 @@ const About = () => {
           {/* first sentence */}
           <SmotionDiv>
             <p>
-            Hey! I'm Denys, a full-stack dev from Ukraine{' '}
+            Hey! I'm Denys, a full-stack dev {' '}
               <br className='hidden xxsm:block xsm:hidden' />who loves{' '}
               <br className='hidden xsm:block sm:hidden' /> building
               cool stuff <br className='hidden lg:block' /> with{' '}
