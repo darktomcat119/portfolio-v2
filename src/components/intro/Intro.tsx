@@ -58,7 +58,7 @@ const Intro = () => {
               >
                 👋
               </SmotionSpan>{' '}
-              It&apos;s Danys <span className='hidden xxsm:inline'>;)</span>
+              It&apos;s Denys <span className='hidden xxsm:inline'>;)</span>
             </SmotionHeader>
             <SmotionHeader
               elementType='h2'
@@ -110,7 +110,7 @@ const Intro = () => {
             >
               <AiFillLinkedin />
             </SmotionLink>
-            <SmotionLink
+            {/* <SmotionLink
               initial={{ opacity: 0, y: 21 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -122,7 +122,7 @@ const Intro = () => {
               title='GitHub'
             >
               <AiFillGithub />
-            </SmotionLink>
+            </SmotionLink> */}
 
             {/* <SmotionLink
               initial={{ opacity: 0, y: 21 }}

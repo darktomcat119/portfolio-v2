@@ -662,13 +662,13 @@ export const PROJECTS_LISTS: Project[] = [
 ];
 
 export const SOCIAL_FOOTER = [
-  {
-    id: 0,
-    title: 'Github',
-    desc: "Most favorite place. I know it's not like a social media place but love pushing code to it daily. NERD!",
-    link: QUIET_NODE_GITHUB_LINK,
-    bgClass: 'bg-github',
-  },
+  // {
+  //   id: 0,
+  //   title: 'Github',
+  //   desc: "Most favorite place. I know it's not like a social media place but love pushing code to it daily. NERD!",
+  //   link: QUIET_NODE_GITHUB_LINK,
+  //   bgClass: 'bg-github',
+  // },
   {
     id: 2,
     title: 'LinkedIn',
