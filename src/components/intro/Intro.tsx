@@ -58,7 +58,7 @@ const Intro = () => {
               >
                 👋
               </SmotionSpan>{' '}
-              It&apos;s Logan <span className='hidden xxsm:inline'>;)</span>
+              It&apos;s Danys <span className='hidden xxsm:inline'>;)</span>
             </SmotionHeader>
             <SmotionHeader
               elementType='h2'
@@ -69,7 +69,7 @@ const Intro = () => {
               className='text-primary font-medium
                     text-lg sm:text-xl'
             >
-              (a.k.a. quiet-node)
+              (Denys Kanivets)
             </SmotionHeader>
           </div>
 
@@ -143,7 +143,7 @@ const Intro = () => {
               viewport={{ once: true }}
               whileHover={{ y: -0.5 }}
               transition={{ duration: 0.6, delay: 1.2 }}
-              href={QUIET_NODE_EMAIL_LINK}
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${QUIET_NODE_EMAIL_LINK}&su=${""}&body=${""}`}
               target='_blank'
               className='cursor-pointer hover:text-red-600 flex items-center'
               title='Gmail'

@@ -5,6 +5,7 @@ import { ImMail } from 'react-icons/im';
 import { SiDiscord, SiTiktok } from 'react-icons/si';
 import { BsGithub, BsTwitter, BsReddit, BsLinkedin } from 'react-icons/bs';
 import React, { useRef } from 'react';
+import { QUIET_NODE_EMAIL_LINK } from '../../../utils/constants'
 
 interface PageProps {
   social: {
@@ -24,9 +25,9 @@ const SocialMediaTile = ({ social }: PageProps) => {
         if (id === 6) {
           alert('SIKE!! You wish!! LOOL');
         } else if (id === 4) {
-          const email = link;
-          const subject = encodeURIComponent("Hello");
-          const body = encodeURIComponent("Hi there!");
+          const email = QUIET_NODE_EMAIL_LINK;
+          const subject = encodeURIComponent("");
+          const body = encodeURIComponent("");
 
           const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
           window.open(gmailUrl, "_blank");

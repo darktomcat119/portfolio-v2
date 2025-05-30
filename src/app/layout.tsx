@@ -28,7 +28,7 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: 'Kanivets Denys',
+  title: 'Denys Kanivets',
   description:
     'Full-stack Blockchain Software Developer Senior Smart Contract Developer',
   authors: {

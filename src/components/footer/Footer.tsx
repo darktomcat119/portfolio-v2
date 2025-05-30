@@ -114,24 +114,6 @@ const Footer = () => {
               </div>
             </SmotionLink>
           </motion.div>
-
-          {/* Copyright */}
-          <motion.div
-            variants={verticalVariants}
-            className='flex items-cent
-          '
-          >
-            &#169; Quiet Node {currentYear}
-          </motion.div>
-
-          {/* Vietnamese */}
-          <motion.div
-            variants={verticalVariants}
-            className='flex items-cent
-          '
-          >
-            🇻🇳 Vietnamese 🇻🇳
-          </motion.div>
         </SmotionDiv>
       </div>
     </div>

@@ -59,7 +59,7 @@ const About = () => {
               <br className='hidden xxsm:block xsm:hidden' />who loves{' '}
               <br className='hidden xsm:block sm:hidden' /> building
               cool stuff <br className='hidden lg:block' /> with{' '}
-              <br className='hidden xxsm:block xsm:hidden' /> React, Node, Django, and PostgreSQL.{' '}
+              <br className='hidden xxsm:block xsm:hidden' /> React, Node, Laravel, Vue, Python, and PostgreSQL.{' '}
               <br className='hidden sm:block lg:hidden' />
               I’ve been coding <br className='hidden xsm:block sm:hidden' /> for
               6+ years—mostly <br className='hidden xxsm:block xsm:hidden' /> web apps,

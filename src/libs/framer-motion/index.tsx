@@ -1,6 +1,6 @@
 'use client';
 
-import { HTMLAttributeAnchorTarget, ReactNode } from 'react';
+import { HTMLAttributeAnchorTarget, MouseEventHandler, ReactNode } from 'react';
 import {
   AnimationControls,
   Target,
@@ -92,9 +92,8 @@ export const SmotionLink = (props: PageProps) => {
       transition={props.transition}
       variants={props.variants}
       title={props.title}
-      className={`flex justify-center items-center ${
-        props.inLine && `inline-flex`
-      }`}
+      className={`flex justify-center items-center ${props.inLine && `inline-flex`
+        }`}
     >
       <Link
         href={props.href as string}
