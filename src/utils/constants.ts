@@ -368,7 +368,7 @@ export const PROJECTS_LISTS: Project[] = [
       'VARUS is an e-commerce platform for one of Ukraine’s largest grocery chains, offering delivery, promotions, and in-store pickup. It supports thousands of concurrent users with real-time inventory and personalized offers.',
     repoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp`,
     liveLink: 'https://varus.ua',
-    demoLink: `${QUIET_NODE_GITHUB_LINK}/hashtology-dapp#desktop`,
+    demoLink: ``,
     thumbnail: 'varus/varus.svg',
     cssWrapper: 'hashtology',
     cssWrapperSm: 'hashtology-sm',
